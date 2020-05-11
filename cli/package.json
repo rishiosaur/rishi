@@ -1,0 +1,10 @@
+{
+  "name": "rishi",
+  "version": "0.0.1",
+  "description": "The CLI that's all about me",
+  "main": "index.js",
+  "repository": "https://github.com/rishiosaur/rishi",
+  "author": "Rishi Kotharo",
+  "license": "MIT",
+  "private": false
+}

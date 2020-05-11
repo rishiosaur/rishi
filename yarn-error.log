@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/rishikothari/.nvm/versions/node/v13.6.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/rishikothari/.cabal/bin:/Users/rishikothari/.ghcup/bin:/usr/local/anaconda3/bin:/usr/local/anaconda3/condabin:/Users/rishikothari/.nvm/versions/node/v13.6.0/bin:/Users/rishikothari/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:136925:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:881:16)
+      at ReadStream.onkeypress (readline.js:199:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:439:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1149:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:305:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
