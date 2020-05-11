@@ -1,14 +1,17 @@
 {
   "name": "rishi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The CLI that's all about me",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "https://github.com/rishiosaur/rishi",
   "author": "Rishi Kotharo",
   "license": "MIT",
   "private": false,
   "bin": {
-    "rishi": "./index.js"
+    "rishi": "./dist/index.js"
+  },
+  "scripts": {
+    "o": "javascript-obfuscator index-real.js --output index.js --split-strings true --split-strings-chunk-length 1 --rotate-string-array true --string-array-encoding true --shuffle-string-array true"
   },
   "dependencies": {
     "chalk": "^4.0.0",
